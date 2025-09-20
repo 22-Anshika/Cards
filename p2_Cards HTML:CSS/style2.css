@@ -1,0 +1,108 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+.container{
+       width:100%;
+       height:100vh;
+       background: rgb(119,66,208);
+       background: radial-gradient(circle, rgba(119,66,208,1) 0%, rgba(79,38,200,1) 100%);  
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.card{
+       width: 320px;
+       height: 500px;
+       background-color: aliceblue;
+       border-radius: 20px;
+       display: flex;
+       flex-direction: column;
+       box-shadow: 6px 6px 17px rgb(32, 33, 37);
+       gap: 20px;
+       align-items: center;
+}
+.card img{
+       height: 30%;
+       width: 100%;
+       border-top-left-radius: 20px;
+       border-top-right-radius: 20px;
+}
+.card h3{
+       font-size: 25px;
+}
+.card p{
+       font-size: 16px;
+}
+#para{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+}
+
+#linkBox{
+       height: 14%;
+       width: 87%;
+       background: rgb(17,30,128);
+       background: linear-gradient(0deg, rgba(17,30,128,1) 0%, rgba(84,30,142,1) 100%); 
+       border-radius: 13px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+       align-items: center;
+}
+#buyBox{
+       height: 9%;
+       width: 87%;
+       background: rgb(7,95,129);
+       background: linear-gradient(0deg, rgba(7,95,129,1) 0%, rgba(20,135,145,1) 100%); 
+       border-radius: 12px;
+       color: aliceblue;
+       border: none;
+       box-shadow: 5px 5px 7px rgb(33, 32, 48);
+       font-size: 17px;
+}
+
+#cancelbtn{
+       color: rgb(60, 16, 102);
+       text-decoration: none;
+       font-size: 17px;
+       font-weight: bold;
+}
+#leftBox{
+       display: flex;
+       color: rgb(232, 221, 241);
+       width: fit-content;
+       justify-content: start;
+       align-items: center;
+       gap: 15px;
+       height: 100%;
+       width:70%;
+       margin-left: 8px;
+       }
+
+#leftBox img{
+       height: 35px;
+       width: 35px;
+       border-radius: 50%;
+}
+
+#rightBox a{
+       color: rgb(234, 225, 239);
+       font-size: 16px;
+       padding: 9px;
+       text-decoration: none;
+       font-weight: bold;
+}
+
+#plan p{
+       text-align: center;
+       font-size: 16px;
+       font-weight: bold;
+
+}
+

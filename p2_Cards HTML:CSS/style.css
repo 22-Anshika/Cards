@@ -1,0 +1,42 @@
+*{
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+}
+.container{
+       width:100%;
+       height:100vh;
+       background: rgb(107,145,233);
+       background: radial-gradient(circle, rgba(107,145,233,1) 0%, rgba(103,228,230,1) 100%); 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+
+.card{
+       width: 320px;
+       height: 500px;
+       background-color: aliceblue;
+       border-radius: 20px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 15px;
+       box-shadow: 5px 5px 15px rgb(52, 53, 61);
+}
+.card img{
+       height: 63%;
+       width: 100%;
+       padding: 20px;
+       border-radius: 30px;
+       
+}
+.card h3{
+       font-size: 33px;
+}
+.card p{
+       font-size: 18px;
+}
+#para{
+       margin-left: 45px;
+}
